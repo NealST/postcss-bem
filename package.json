@@ -1,0 +1,30 @@
+{
+  "name": "@mozheng-neal/postcss-bem",
+  "version": "1.0.0",
+  "description": "支持bem语法的postcss插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NealST/postcss-bem.git"
+  },
+  "keywords": [
+    "css",
+    "postcss",
+    "bem"
+  ],
+  "author": "NealST",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NealST/postcss-bem/issues"
+  },
+  "homepage": "https://github.com/NealST/postcss-bem#readme",
+  "dependencies": {
+    "postcss": "^6.0.20"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
