@@ -2,7 +2,7 @@
   "name": "@mozheng-neal/postcss-bem",
   "version": "1.0.0",
   "description": "支持bem语法的postcss插件",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "test"
   },
@@ -25,6 +25,9 @@
     "postcss": "^6.0.20"
   },
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1"
   }
 }
