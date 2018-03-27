@@ -1,10 +1,12 @@
 {
   "name": "@mozheng-neal/postcss-bem",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "支持bem语法的postcss插件",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "gulp build",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",

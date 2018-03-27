@@ -22,7 +22,7 @@ module.exports = postcss.plugin('postcss-bem', function (opts) {
       return `${parentSelector}${selectorArray.join('')}`
     } else {
       let theParent = atRule.parent
-      while (theParent.type !== 'root') {
+      while (theParent && theParent.type !== 'root') {
         selectorArray.unshift(`${schema[theParent.name].separator}${theParent.params}`)
         theParent = theParent.parent
       }
