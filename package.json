@@ -1,6 +1,6 @@
 {
   "name": "@mozheng-neal/postcss-bem",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "支持bem语法的postcss插件",
   "main": "./lib/index.js",
   "scripts": {
